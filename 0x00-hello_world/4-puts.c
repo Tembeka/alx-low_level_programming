@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 /**
  * main - A program that prints with PUTS function
  *
