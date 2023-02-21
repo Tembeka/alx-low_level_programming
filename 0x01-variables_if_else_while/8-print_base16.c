@@ -8,6 +8,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+	/* variable declarations */
 	char c;
 
 	int d;
