@@ -5,6 +5,7 @@
  * return: Always 0 (success)
  */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	char c;
