@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_times_table(int n)
+ * print_times_table - prints the n times table, starting with 0
  * starting with 0
  * @n: the value of the times table to be printe
  */
 
 void print_times_table(int n)
 {
-	int num, mult, prod;
+	int num, mult, prod
 
 	if (n >= 0 && n <= 15)
 	{
@@ -24,7 +24,6 @@ void print_times_table(int n)
 	if (prod <= 9)
 	_putchar(' ');
 	if (prod >= 100)
-	{
 	_putchar((prod / 100) + '0');
 	_putchar(((prod / 10)) % 10 + '0');
 	}
