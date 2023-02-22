@@ -16,11 +16,11 @@ void print_times_table(int n)
 	_putchar('0');
 	for (mult = 0; mult <= n; mult++)
 	{
-	_putchar('_');
+	_putchar(',');
 	_putchar(' ');
 	prod = num = mult;
 	if (prod <= 99)
-	_putchar('_');
+	_putchar(' ');
 	if (prod <= 9)
 	_putchar(' ');
 	if (prod >= 100)
