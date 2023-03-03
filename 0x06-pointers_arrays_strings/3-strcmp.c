@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
   * _strcmp - Compares two strings
@@ -8,7 +7,6 @@
   *
   * Return: int value
   */
-
 int _strcmp(char *s1, char *s2)
 {
 	int a = 0, b = 0, c = 0, r = 0, lim;
@@ -17,10 +15,12 @@ int _strcmp(char *s1, char *s2)
 	{
 	a++;
 	}
+
 	while (s2[b])
 	{
 	b++;
 	}
+
 	if (a <= b)
 	{
 	lim = a;
@@ -29,6 +29,7 @@ int _strcmp(char *s1, char *s2)
 	{
 	lim = b;
 	}
+
 	while (c <= lim)
 	{
 	if (s1[c] == s2[c])
@@ -43,5 +44,6 @@ int _strcmp(char *s1, char *s2)
 	}
 	c++;
 	}
+
 	return (r);
 }
