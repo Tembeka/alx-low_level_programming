@@ -4,8 +4,8 @@
 
 /**
  * str_concat -  concatenates two strings.
- * @s1: 1st string
- * @s2: 2nd string
+ * @s1: 1st str
+ * @s2: 2nd str
  *
  * Return: returns  pointer, NULL on failure
  */
