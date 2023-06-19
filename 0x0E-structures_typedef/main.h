@@ -1,6 +1,7 @@
 #define MAIN_H
 #ifdef MAIN_H
 
+typedef dog dog;
 void free_dog(dog_t *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void print_dog(struct dog *d);
