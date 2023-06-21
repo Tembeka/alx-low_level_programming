@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdio.h>
 
 /**
  *print_name - Write a function that prints a name.
@@ -12,4 +13,9 @@ void print_name(char *name, void (*f)(char *))
 	{
 		f(name);
 	}
+}
+
+void print_string(char *igama)
+{
+	printf("%s\n", igama);
 }
