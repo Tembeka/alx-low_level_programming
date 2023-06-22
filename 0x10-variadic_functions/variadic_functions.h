@@ -6,5 +6,6 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 int _putchar(char c);
+sum = sum_them_all(2, 98, 1024);
 
-#endif /* variadic_functions.h */
+#endif
